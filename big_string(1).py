@@ -21,7 +21,7 @@ class BigNumbers:
         for i in range(0, len(hex_string), 8):
             self.digits.append(int(hex_string[i:i+8], 16))
         self.size = len(self.digits)
-
+#тест
 my_num = BigNumbers([0xFFFFFFFF, 0x12345678])
 my_num.set_number("ABCDEF0123456789")
 hex_string = my_num.to_hex_string()
