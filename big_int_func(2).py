@@ -29,7 +29,7 @@ class BigNumbers:
     def shiftL(self, n):
         return BigNumbers(self.value << n)
 
-# Приклад використання:
+# тест
 a = BigNumbers()
 b = BigNumbers()
 c = BigNumbers()
